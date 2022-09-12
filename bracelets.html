@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://kit.fontawesome.com/9a7d5e9290.js" crossorigin="anonymous"></script>
+
+  <title>Cherryfic Creations</title>
+</head>
+<body id="wrapper">
+  <div id="header">
+    <a class="logo"  href="index.html"> <img src="./img/logo/logo41.jpg" alt="logo"></a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="earrings.html">Earriings</a></li>
+        <li class="active"><a href="bracelets.html">Bracelets</a></li>
+        <li><a href="necklaces.html">Necklaces</a></li>
+        <li><a href="resin_art.html">Resin Art</a></li>
+    </ul>
+    </nav>
+  </div>
+
+  <div id="content">
+    <h1>Bracelets</h1>
+    <div class="col-25">
+      <img src="./img/bracelets/bracelets01.jpg" alt="">
+      <p>Product name</p>
+    </div>
+    <div class="col-25">
+      <img src="./img/bracelets/bracelets02.jpg" alt="">
+      <p>Product name</p>
+    </div>
+    <div class="col-25">
+      <img src="./img/bracelets/bracelets03.jpg" alt="">
+      <p>Product name</p>
+    </div>
+    <div class="col-25">
+      <img src="./img/bracelets/bracelets04.jpg" alt="">
+      <p>Product name</p>
+    </div>
+    <div class="col-25">
+      <img src="./img/bracelets/bracelets05.jpg" alt="">
+      <p>Product name</p>
+    </div>
+    <div class="col-25">
+      <img src="./img/bracelets/bracelets06.jpg" alt="">
+      <p>Product name</p>
+    </div>
+    <div class="col-25">
+      <img src="./img/bracelets/bracelets07.jpg" alt="">
+      <p>Product name</p>
+    </div>
+    <div class="col-25">
+      <img src="./img/bracelets/bracelets08.jpg" alt="">
+      <p>Product name</p>
+    </div>
+    <div class="col-25">
+      <img src="./img/bracelets/bracelets09.jpg" alt="">
+      <p>Product name</p>
+    </div>
+    <div class="col-25">
+      <img src="./img/bracelets/bracelets03.jpg" alt="">
+      <p>Product name</p>
+    </div>
+    <div class="col-25">
+      <img src="./img/bracelets/bracelets04.jpg" alt="">
+      <p>Product name</p>
+    </div>
+    <div class="col-25">
+      <img src="./img/bracelets/bracelets05.jpg" alt="">
+      <p>Product name</p>
+    </div>
+    <div class="col-25">
+      <img src="./img/bracelets/bracelets06.jpg" alt="">
+      <p>Product name</p>
+    </div>
+    <div class="col-25">
+      <img src="./img/bracelets/bracelets07.jpg" alt="">
+      <p>Product name</p>
+    </div>
+    <div class="col-25">
+      <img src="./img/bracelets/bracelets08.jpg" alt="">
+      <p>Product name</p>
+    </div>
+    <div class="col-25">
+      <img src="./img/bracelets/bracelets09.jpg" alt="">
+      <p>Product name</p>
+    </div>
+  </div>
+  <div id="footer">
+    <div id="media" class="clearfix">
+      <ul>
+        <li><a href="https://www.facebook.com/Cherryficreations" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com/cherryficreations/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+      </ul>
+    </div>
+    <div class="foot">
+      <p>©2022 Cherryfic Creations</p>
+      <nav class="clearfix">
+        <ul>
+        <li><a href="our_privacy_policy.html">Sitemap</a></li>
+        <li><a href="our_privacy_policy.html">Term of use</a></li>
+        <li><a href="our_privacy_policy.html">Private policy</a></li>
+        <li><a href="#">Kontakt</a></li>
+      </ul>
+      </nav>
+    </div>  
+  </div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+var slideIndex1 = 1;
+showSlides1(slideIndex1);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+function plusSlides1(n) {
+  showSlides1(slideIndex1 += n);
+}
+
+
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+  function currentSlide1(n) {
+    showSlides1(slideIndex1 = n);
+  }
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";  
+}
+  function showSlides1(n) {
+    var i;
+    var slides1 = document.getElementsByClassName("mySlides1");
+    if (n > slides1.length) {slideIndex1 = 1}    
+    if (n < 1) {slideIndex1 = slides1.length}
+    for (i = 0; i < slides1.length; i++) {
+        slides1[i].style.display = "none";  
+    }
+    slides1[slideIndex1-1].style.display = "block";  
+  }
+</script>
+
+
+</body>
+</html>
